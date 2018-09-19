@@ -1,4 +1,7 @@
 # python-mysqlkit
+
+[![Documentation Status](https://readthedocs.org/projects/python-mysqlkit/badge/?version=latest)](https://python-mysqlkit.readthedocs.io/en/latest/?badge=latest)
+
 Useful libraries and tools to manage MySQL servers
 
 > I have several tools, scripts and libraries which I wrote over the years and I decided to clean them up and start sharing them here.
