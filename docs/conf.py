@@ -23,7 +23,8 @@ project = u'python-mysqlkit'
 copyright = u'2018, Karoly Nagy'
 author = u'Karoly Nagy'
 
-src_dir = os.path.realpath(os.path.dirname(os.path.dirname(__file__)))
+root_dir = os.path.realpath(os.path.dirname(os.path.dirname(__file__)))
+src_dir = os.path.join(root_dir, 'src')
 sys.path.insert(0, src_dir)
 from mysqlkit import get_version
 version = get_version()
