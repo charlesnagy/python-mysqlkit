@@ -1,8 +1,9 @@
-# python-mysqlkit
+# python-mysqlkit [![pypy version](https://img.shields.io/pypi/v/mysqlkit.svg)](https://pypi.python.org/pypi/mysqlkit/)
 
 [![Codeship Status for charlesnagy/python-mysqlkit](https://app.codeship.com/projects/6eb8ae70-868b-0136-2b3a-2a2c4b8b7d5c/status?branch=master)](https://app.codeship.com/projects/302477)
 [![Documentation Status](https://readthedocs.org/projects/python-mysqlkit/badge/?version=latest)](https://python-mysqlkit.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/charlesnagy/python-mysqlkit/branch/master/graph/badge.svg)](https://codecov.io/gh/charlesnagy/python-mysqlkit)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mysqlkit.svg)](https://pypi.python.org/pypi/mysqlkit/)
 
 Useful libraries and tools to manage MySQL servers
 

@@ -9,13 +9,18 @@ version = __import__('mysqlkit').get_version()
 with open('requirements.txt') as requirements:
     install_reqs = [r.strip('\n') for r in requirements]
 
+with open('README.md') as desc:
+    long_description = desc.read()
+
 setup(
     name='mysqlkit',
     version=version,
     url='',
     author='Karoly Nagy',
     author_email='dr.karoly.nagy@gmail.com',
-    description=('Python libraries for managine MySQL'),
+    description=('Python libraries for managing MySQL', ),
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     license='GPL-3.0',
     packages=find_packages(os.path.join(here, 'src'), exclude=['contrib', 'docs', 'tests']),
     package_dir={'':'src'},
@@ -26,7 +31,7 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 2',
