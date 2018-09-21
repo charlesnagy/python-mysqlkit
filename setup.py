@@ -18,7 +18,7 @@ setup(
     url='',
     author='Karoly Nagy',
     author_email='dr.karoly.nagy@gmail.com',
-    description=('Python libraries for managing MySQL', ),
+    description='Python libraries for managing MySQL',
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='GPL-3.0',
