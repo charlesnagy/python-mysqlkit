@@ -4,6 +4,7 @@
 [![Documentation Status](https://readthedocs.org/projects/python-mysqlkit/badge/?version=latest)](https://python-mysqlkit.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/charlesnagy/python-mysqlkit/branch/master/graph/badge.svg)](https://codecov.io/gh/charlesnagy/python-mysqlkit)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mysqlkit.svg)](https://pypi.python.org/pypi/mysqlkit/)
+[![SonarQube](https://sonarcloud.io/api/project_badges/measure?project=charlesnagy_python-mysqlkit&metric=alert_status)](https://sonarcloud.io/dashboard?id=charlesnagy_python-mysqlkit)
 
 Useful libraries and tools to manage MySQL servers
 
