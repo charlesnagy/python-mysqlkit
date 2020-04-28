@@ -21,7 +21,7 @@ setup(
     description='Python libraries for managing MySQL',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    license='GPL-3.0',
+    license='MIT',
     packages=find_packages(os.path.join(here, 'src'), exclude=['contrib', 'docs', 'tests']),
     package_dir={'':'src'},
     scripts=glob.glob('bin/*'),
